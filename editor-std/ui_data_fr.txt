@@ -650,7 +650,7 @@ Current_Controlled_Switch =
 FUSE = FUSIBLE
 Delay_Fuse = Fusible retardé
 Transmission_Line = Ligne_de_transmission
-Crystal =
+Crystal = Quartz
 DFFEE =
 TFFEE =
 JKFFEE =
@@ -667,14 +667,14 @@ SPDT_Close =
 SPST_Close =
 SPST_Open =
 Fast_Crystal =
-Lamp =
+Lamp = Lampe
 BCD_Segment =
 Seven_Segment = 
-Traffic_Light =
+Traffic_Light = Feu de circulation
 Lamp Settings =
 Power[W] = Puissance[W]
 Dropout Voltage[V]
-Current[A]
+Current[A] = Intensité[A]
 Threshold[V]
 Clock Rate = 
 TrafficLight Settings =
@@ -700,7 +700,7 @@ Line 45° = Ligne à 45°
 Line 90° = Ligne à 90°
 Arc 45° = Arc à 45°
 Arc 90° = Arc à 90°
-Free Angle = 
+Free Angle = Angle libre
 Start X = Début X
 Start Y = Début Y
 Length = Longueur
@@ -766,7 +766,7 @@ Routing Width = Largeur de routage
 [router]
 Routing Width = Largeur de routage
 [/router]
-Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. =
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Veuillez utiliser le raccourci de clavier {0}{key1}{1} or {2}{key2}{3} pour changer l'épaisseur de la piste pendant le routage.
 Routing Angle = Angle de routage
 Routing Conflict = Conflit de routage
 Remove Loop = Retirer la boucle
@@ -797,7 +797,7 @@ Shape = Forme
 Hole(D) = Perçage (Diamètre)
 Center X = Centre X
 Center Y = Centre Y
-Round = Cerculaire
+Round = Circulaire
 Oval = Ovale
 Hole Shape = Forme du trou
 Slot = Fente
@@ -836,7 +836,7 @@ Pattern =
 
 #Arc Properties
 Arc Properties = Propriétés des arcs de cercles
-Start Angle = Angle de débart
+Start Angle = Angle de départ
 End Angle = Angle de fin
 Rotation Direction = Sens de rotation
 
@@ -891,7 +891,7 @@ Username = Nom d'utilisateur
 Password = Mot de passe
 Confirm Password = Confirmer le mot de passe
 Email = Adresse Email
-Please read this before you register = Lisez avant de vous inscrire
+Please read this before you register = Veuillez lire ceci avant de vous inscrire
 Hi {username} = Bienvenue {username}
 
 #Dialog lostPassword
@@ -926,7 +926,7 @@ Value.new_para =
 In BOM = Dans la nomenclature
 Add into BOM = Ajouter à la nomenclature
 Invalid key = Clé invalide
-This field is required. = Ce champ est obligatoire
+This field is required. = Ce champ est obligatoire.
 
 #Dialog Change Your Password
 Change your password = Changer votre mot de passe
@@ -940,7 +940,7 @@ Save as a schematic = Enregistrer comme Schéma
 Save as Symbol = Enregistrer comme symbole
 Save as a spice Symbol = Enregistrer comme symbole Spice
 Save as a spice subckt = Enregistrer comme sous-circuit Spice
-YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = VOUS DEVEZ CREER UN SYMBOLE SPICE AVEC EXCATEMENT E MEME NOM QUE CE SOUS-CIRCUIT
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = VOUS DEVEZ CREER UN SYMBOLE SPICE AVEC EXCATEMENT LE MEME NOM QUE CE SOUS-CIRCUIT
 Save as a PCB file = Enregistrer comme Fichier de Circuit
 Save as Footprint = Enregistrer en tant qu'empreinte
 Save as a Schematic Module = Enregistrer en tant que module d'un schéma
@@ -974,7 +974,7 @@ Notice =
 Search for it before creating a new one. = Trouver avant de créer.
 Manufacturer Part Number = Numéro de pièce du fabricant
 Supplier = Distributeur
-Or =
+Or = Ou bien
 Supplier Part = Pièce du distributeur
 Supplier Part Number = Numéro de pièce du distributeur
 Link = Lien
@@ -2909,10 +2909,10 @@ All = Tous
 Add custom = Ajoutez des éléments personnalisés
 
 Connections =
-Attempted: =
-Completed: =
-Failed: =
-Total Vias: =
+Attempted: = Essayés :
+Completed: = Réussis :
+Failed: = Echecs :
+Total Vias: = Nombre total de vias
 
 Please confirm moving option = Veuillez confirmer l'option de transfert
 Only this pad = Seulement cette pastille
@@ -2942,11 +2942,11 @@ Add favorite success! = Ajouté aux favoris avec succès
 Remove favorite success! = Retiré des favoris avec succès
 Remove favorite failed! = 
 Whether if remove favorite? =
-Split by ';' for multi tags =
+Split by ';' for multi tags = Séparez par ";" pour plusieurs tags
 
 This size is the determined size! = Cette taille est la taille déterminée !
 The associated pad has been locked = La pastille associée a été verrouillée.
-Split by space or , for multi tags =
+Split by space or , for multi tags = Séparez par un espace ou par "," pour plusieurs tags
 
 Rotation X =
 Rotation Y =
@@ -2962,11 +2962,11 @@ There is No Tag! =
 Assign successful! =
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
 Update Property =
-Please fill in at least 5 words. =
+Please fill in at least 5 words. = Veuillez renseigner au moins 5 mots
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track =
 When circle set as "Yes", the Pin length must be more than 6 =
-Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =
+Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Bonjour, j'ai trouvé un problème dans votre bibliothèque, elle semble incorrecte.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\n Merci !
 
 Logout fail! Please try again! = Échec de la déconnexion ! Veuillez réessayer !
 Logout success! We look forward you to use LCEDA again! = Déconnexion réussie ! Nous espérons que vous utiliserez à nouveau LCEDA !
@@ -2985,8 +2985,8 @@ Mirror the bottom component's X coordinate (JLCPCB doesn't need) =
 Work Space = Espace de travail
 Include panelized components' coordinates =
 Personal Workspace = Espace de travail personnel
-Work Space - {name} =
-Work Space - Personal =
+Work Space - {name} = Esapce de travail - {name}
+Work Space - Personal = Espace de travail - Personnel
 Cloning = Clonage
 
 Project Owner = Propriétaire du projet
@@ -2995,7 +2995,7 @@ Homepage = Page d'acceuil
 Apply for Education Edition = Demandez l'édition Éducation
 Load Organization failed =
 Joined =
-Favorite =
+Favorite = Favoris
 This operation will unfavorite this project, do you want to continue? =
 View Homepage = Voir la page d'accueil
 Private Project = Projet Privé
@@ -3016,12 +3016,12 @@ Power =
 [/saveAs]
 
 Assign LCSC Part# =
-Unexpected error while converting. Perhaps unsupported file type or program bug. =
+Unexpected error while converting. Perhaps unsupported file type or program bug. = Erreur innatendue lors de la convertion. Cela peut être un type de fichier non supporté ou un bug du programme.
 Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. =
 
 #electromagneticSimulation
-Electromagnetic Simulation... =
-You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? =
+Electromagnetic Simulation... = Simulation électromagnétique...
+You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = Vous allez téléverser un Gerber vers SuperEM pour une simulation électromagnétique. Voulez-vous continuer ?
 SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. =
 Visit the SuperEM =
 SuperEM User Guide =
@@ -3029,22 +3029,22 @@ Upload Gerber to SuperEM successfully, please click "OK" buttun to continue =
 
 Format =
 View = Vues
-Design =
+Design = Conception
 Simulation =
-Advanced =
+Advanced = Avancé
 Fabrication =
 Check DRC =
-Simulation Setting =
+Simulation Setting = Réglages de la simulation
 BOM = Nommenclature
-PCB Fabrication File(Gerber) =
+PCB Fabrication File(Gerber) = Fichier de fabrication u circuit imprimé (Gerber)
 Pick and Place File =
-Parts Order =
-PCB Order =
+Parts Order = Commander des composants
+PCB Order = Commander des circuits imprimés
 SIM =
 STD =
 WaveForm = Courbe
 
-Place Module =
+Place Module = Placez le module
 Please enter identification letters: =
 Only support English letters, up to 5. =
 
