@@ -130,12 +130,12 @@ Annotation = Annotation
 Track = Piste
 Image = Image
 Arrow Head = Flêche d'entête
-Arrowhead = Bout de flêche
+Arrowhead = Bout de flèche
 Arrow = Flêche
 No Connect Flag = Balise sans connexion
 Place = Placer
 Pin = Broche
-Lock Selected Objects = Vérouiller les Objets Séléctionnés
+Lock Selected Objects = Verrouiller les Objets Séléctionnés
 
 Miscellaneous = Divers
 Find Component = Chercher Composant
@@ -313,7 +313,7 @@ Cross Probe =
 Cross Probe and Place =
 Paper Size = Taille du papier
 Register = Enregistrer
-User Center =
+User Center = Centre de l'utilisateur
 
 By Mouse Location = Par l'emplacement de la souris
 Set Coordinate = Determiné les coordonées
@@ -347,9 +347,9 @@ Stroke Style = Style du trait
 Fill Color = Couleur de remplissage
 Selected Objects = Objets sélectionnés
 Frame Size = Taille du cadre
-Alt Snap =
-Snap size when pressing the Alt key = 
-Prefix Start = 
+Alt Snap = Alt Accrochage
+Snap size when pressing the Alt key = Taille de l'accrochage en appuiant sur la touche Alt
+Prefix Start = Début du préfixe
 
 #Text Properties
 Text Properties = Attributs du texte
@@ -381,7 +381,7 @@ Failed to parse the font file: {name} = Échec de l'analyse du fichier de police
 Please select a font file of ttf or woff format. = Veuillez sélectionner un fichier de police au format ttf ou woff.
 Add font success: {name} = Ajout de la police réussi: {name}
 Failed to add font: {name} = Echec de l'ajout de la police: {name}
-Add Font = Ajouter police
+Add Font = Ajouter une police
 Failed to parse cached font: {name} = Échec de l'analyse de la police en cache : {name}
 Load cached fonts fail! = Échec du chargement des polices en cache !
 
@@ -631,7 +631,7 @@ XOR2EE_US =
 XOR2EE_CN =
 XNOR2EE_US =
 XNOR2EE_CN =
-Digital_Clock_1Hz =
+Digital_Clock_1Hz = Horloge_Numérique_1Hz
 Logicstate_0 = Etat_logique_0
 Logicstate_1 = Etat_logique_1
 Logic_Probe = Sonde_logique
@@ -676,7 +676,7 @@ Power[W] = Puissance[W]
 Dropout Voltage[V]
 Current[A] = Intensité[A]
 Threshold[V]
-Clock Rate = 
+Clock Rate = Vitesse de l'horloge
 TrafficLight Settings =
 BCDSegment Settings =
 SevenSegment Settings =
@@ -1455,7 +1455,7 @@ Manage Project = Gérer le projet
 Footprints Verification = Vérification des empreintes
 
 #Dialog Edit Polygon Pad points
-Edit Points =
+Edit Points = Editer les Points
 Center point is outside the pad =
 Hole should be inside the pad = Le trou doit être à l'intérieur de la pastille
 Hole is draggable = Le trou peut être déplacé
@@ -1530,7 +1530,7 @@ Save Changes = Enregistrer les Changements
 
 
 #Dialog Polyline Maybe Wire
-To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). =
+To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = Pour connecter des éléments électriques, veuillez utiliser Fil (racc. de clavier W) et non pas Ligne (racc. de clavier L).
 
 Anonymous File = Fichier anonyme
 Anonymous File can not be cloned, but you can open it, then save it as a new file. = Un fichier anonyme ne peut pas être cloné, mais vous pouvez l'ouvrir, puis l'enregistrer comme un nouveau fichier.
@@ -1601,7 +1601,7 @@ Please save your file first! = Vous devez d'abord enregistrer votre fichier !
 Email address is too short! = L'adresse email est trop courte !
 You have not selected a file to upload. = Vous n'avez pas sélectionné de fichier à transférer.
 Update = Mettre à jour
-No changes, the PCB already matches the schematic! =
+No changes, the PCB already matches the schematic! = Aucun changements, le circuit correspond déjà au schéma !
 Only public files can be shared = Seuls les fichiers publiques peuvent être partégés
 Conversion to PCB has failed! = Erreur lors de la conversion en circuit !
 Your username is too short! = Le Nom Utilisateur est trop court !
@@ -1615,8 +1615,8 @@ All of these fields are needed. = Tous les champs sont requis.
 Either your spice netlist is too big or the server is busy. Please try again later. = Votre netlist est trop grande ou le serveur est occupé. Réessayez plus tard.
 Your spice netlist is too big! Try breaking your circuit into smaller simulatable blocks. = Votre netlist est trop grande ! Essayez de découper votre ciruit en blocs plus petits.
 Too many users in simulation. Please try again later! = Trop de connexions pour la simulation. Réessayez plus tard.
-Due to limited server resources, please wait 10 seconds for the interval in every time simulation. =
-Your circuit is too complex, we have not enough CPU resource to support this simulation, please reduce your circuit as small as you can. =
+Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = A cause de ressources serveur limitées, veuillez attendre 10 secondes entre chaque simulation.
+Your circuit is too complex, we have not enough CPU resource to support this simulation, please reduce your circuit as small as you can. = Votre circuit est trop complexe et nous n'avons pas suffisament de ressources CPU pour la simulation. Veuillez le réduire autant que vous pouvez.
 Simulation is queuing, try again after 30s. = La simulation est en attente, réessayez après 30s. 
 Timeout = Délai d'attente
 Demo accounts don't support simulation, please login first = Les comptes de démonstration ne permettent pas la simulation, veuillez d'abord vous connecter.
@@ -1685,14 +1685,14 @@ This file has been modified, please save it first! = Ce fichier a été modifié
 Remove this param = Supprimer ce paramètre
 You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. =
 Undo/Redo temporary error =
-We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. =
-The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. =
+We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = Nous sommes désolés mais il y a une erreur imprévisible sur le processus annuler/refaire. Le problème sera bientôt corrigé, vous pouvez continer à concevoir en sécurité.
+The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = Le schéma contient des doublons dans les préfixes des composants, veuillez les rendre uniques. Vous pouvez les vérifier avec le gestionnaire de conception.
 Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. =
 Please click the below help button to find out how to fix this problem. = Veuillez cliquer sur le bouton d'aide ci-dessous pour savoir comment résoudre ce problème.
 Please create a board outline! Click the help button to find out how to create a board outline. = Veuillez créer le countour du circuit ! Cliquez sur le bouton d'aide pour savoir comment créer un contour.
 Can not fetch files from server, please check your network and try again = Impossible de récupérer les fichiers du serveur. Vérifiez votre connexion et réessayez.
 Please open a schematic first! = Ouvrez d'abord un schéma !
-Can not find the schematic of this PCB =
+Can not find the schematic of this PCB = Impossible de trouver le schéma de ce circuit.
 invalid points! = points invalides !
 This file does not support this operation. = Ce fichier ne supporte pas cette opération.
 Net Name Conflict =
@@ -1773,7 +1773,7 @@ Gpoly(Non-linear Current Source) = Sources de courant non-linéaires
 
 Diode = Diode
 LED = DEL
-LED_3D =
+LED_3D = 
 Schottky Diode = Diode Schottky
 Varactor Diode = Diode Varactance
 Zener = Diode Zener
@@ -1864,8 +1864,8 @@ Place Pin = Placer une broche
 #System Setting Dialog
 System = Système
 Zoom Mode = Mode zoom
-Scroll Key =
-CTRL + Scroll =
+Scroll Key = Touche de Défilement
+CTRL + Scroll = CTRL + Défilement
 Canvas Coordinate System =
 SVG Coordinate = Coordonnées SVG
 Cartesian Coordinate = Coordonnées cartésiennes
@@ -2035,7 +2035,7 @@ Exporting as = Exporter comme ...
 Exporting as image = Exporter comme image
 Exporting as {0}SVG{1} file. = Exporter comme fichier {0}SVG{1}.
 Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = Exportation en pdf recommandée : le pdf est de petite taille et permet une bonne qualité d'impression.
-Generate PCB Fabrication File(Gerber) =
+Generate PCB Fabrication File(Gerber) = Générer le fichier de fabrication du cricuit imprimé (Gerber)
 PenWidth-Increase =
 
 #Generate Gerber
